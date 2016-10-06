@@ -14,3 +14,18 @@ if (guess == correct) {
 } else {
   alert('Nope, that is wrong!');
 }
+
+//Write a JavaScript program to rotate the string 'w3resource' in right direction by
+//periodically removing one letter from the end of the string and attaching
+//it to the front
+
+
+var string = 'w3resource';
+
+for (var i = 0; i <= string.length; i++) {
+  var x = string.length - 1;
+  var letter = string.slice(-1);
+  var newString = letter.concat(newString);
+};
+
+console.log(newString);
